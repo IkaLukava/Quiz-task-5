@@ -10,8 +10,11 @@ body{
     background-image: url(images/back);
 }
 
+
 .app{
-    background: #001e4d;
+    /* background: #001e4d; */
+    background-image: url(images/back3);
+    background-size: cover;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
