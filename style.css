@@ -82,3 +82,11 @@ body{
 .incorrect{
     background: rgb(194, 118, 118);
 }
+
+.blank { 
+    color: #142034; 
+} 
+
+.red { 
+    color: red; 
+} 

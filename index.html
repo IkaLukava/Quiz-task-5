@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" 
+    href= 
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> 
+    <script src= 
+    "https://code.jquery.com/jquery-3.7.1.min.js"> 
+        </script> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="style.css">
@@ -22,8 +28,27 @@
         </div>
     </div>
 
+    <h2 style="color: green;"> 
+        Welcome To GFG 
+    </h2> 
+    <p> 
+        Instagram Like Button using toggleClass 
+    </p> 
 
+    <button id="like"> 
+        <i id="icon" 
+           class="fa-regular fa-heart blank"> 
+        </i> 
+    </button> 
 
+    <script> 
+        $(document).ready(function () { 
+            $("#like").on("click", function () { 
+                $("#icon").toggleClass("red"); 
+                $("#icon").toggleClass("fa-solid"); 
+            }); 
+        }); 
+    </script> 
 
     <script src="./app.js"></script>
 </body>
